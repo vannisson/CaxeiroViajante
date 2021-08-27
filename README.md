@@ -9,7 +9,7 @@
 Av. Manoel Severino Barbosa - Bom Sucesso, Arapiraca - AL, 57309-005
 
 ## Primeiro ano disponível: 
-XXXX
+2021
 
 ## Hardware sugerido:
 **Durante o SH07 e SP11 foi utilizado o Google Collaboratory:**
@@ -38,7 +38,7 @@ XXXX
 O projeto está rodando em Windows 10.
 
 ## Disponibilidade: 
-Disponível no XXXXXX.
+Disponível no 2021.
 * As bases de dados estão disponíveis <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/cities.html">aqui</a>. Sendo elas:
 
 -LAU15, SGB128, SH07, SP11, UK12, USCA312, WG22, WG59
