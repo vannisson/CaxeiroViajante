@@ -2,7 +2,7 @@
  
 ## Contato dos desenvolvedores: 
 * Geovane Leite de Carvalho Filho | geovane.filho@arapiraca.ufal.br
-*
+* Felipe da Silva Leite | felipe.leite@arapiraca.ufal.br
 *
 
 ## Endereço: 
@@ -38,6 +38,16 @@ XXXX
 O projeto está rodando em Windows 10.
 
 ## Disponibilidade: 
-Disponível no XXXXXX. As bases de dados utilizadas também devem estar disponíveis.  
+Disponível no XXXXXX.
+* As bases de dados estão disponíveis <a href="https://people.sc.fsu.edu/~jburkardt/datasets/cities/cities.html">aqui</a>. Sendo elas:
+
+-LAU15, SGB128, SH07, SP11, UK12, USCA312, WG22, WG59
+
 ## Custo:
-Todas as ferramentas utilizadas são gratuitas.
+Todas as ferramentas utilizadas são gratuitas. Sendo elas:
+
+-Visual Studio Code
+
+-Python3
+
+-Google Collaboratory
