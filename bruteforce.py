@@ -21,4 +21,4 @@ def BruteForce(cidades):
     lastCost = min(costList)
     lastCostIndex = costList.index(lastCost)
  
-    return lastCost
+    return [lastCost,trees]
