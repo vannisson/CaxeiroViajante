@@ -3,7 +3,7 @@
 ## Contato dos desenvolvedores: 
 * Geovane Leite de Carvalho Filho | geovane.filho@arapiraca.ufal.br
 * Felipe da Silva Leite | felipe.leite@arapiraca.ufal.br
-*
+* Marcos Guilherme Souza Nunes | marcos.souza@arapiraca.ufal.br
 
 ## Endereço: 
 Av. Manoel Severino Barbosa - Bom Sucesso, Arapiraca - AL, 57309-005
