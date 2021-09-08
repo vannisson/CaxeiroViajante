@@ -1,24 +1,36 @@
 from itertools import permutations
+from sys import maxsize
 
-def GerarCaminhos(cidades):
-    Nodes = [node for node in range(len(cidades))]
-    Node = Nodes.pop()
-    nodePermutations = list(permutations(Nodes))
-    Tree = list(map(list, nodePermutations))
-    for paths in Tree:
-        paths.append(Node)
-        paths.append(paths[0])  
-    return Nodes, Tree
+def PCVbruteforce(grafo,inicio):
+    # Salvando os vértices
+    vertices = []
+    for vert in range(len(grafo)):
+        if vert != inicio:
+            vertices.append(vert)
 
-def BruteForce(cidades):
-    Nodes, Trees = GerarCaminhos(cidades)
-    costList = []
-    for ciclo in Trees:
-        costPerCicle = 0
-        for index in range(0,(len(Nodes)-1)):
-            costPerCicle = costPerCicle + cidades[ciclo[index]][ciclo[index+1]]
-        costList.append(costPerCicle)
-    lastCost = min(costList)
-    lastCostIndex = costList.index(lastCost)
- 
-    return [lastCost,trees]
+    prox = permutations(vertices)
+    caminhoAtual = maxsize
+    
+    # Fazendo o cálculo de custo
+    for vert in prox:
+        custoAtual = 0
+        x = inicio
+        for aresta in vert:
+            custoAtual+=float(grafo[x][aresta])
+            x = aresta
+        custoAtual += float(grafo[x][inicio])
+
+        caminhoMin = min(caminhoAtual,custoAtual)
+        if caminhoMin < caminhoAtual:
+            caminhoAtual = min(caminhoAtual,custoAtual)
+            aux = vert
+
+    # Decidindo o melhor caminho
+    melhorCaminho = []
+    for vert in aux:
+        melhorCaminho.append(vert)
+
+    melhorCaminho.insert(0, inicio)
+    melhorCaminho.append(inicio)
+
+    return [caminhoAtual,melhorCaminho]
