@@ -1,5 +1,5 @@
-from itertools import permutations
 from sys import maxsize
+from itertools import permutations
 
 def PCVbruteforce(grafo,inicio):
     # Salvando os vértices
@@ -19,8 +19,8 @@ def PCVbruteforce(grafo,inicio):
             custoAtual+=float(grafo[x][aresta])
             x = aresta
         custoAtual += float(grafo[x][inicio])
-
         caminhoMin = min(caminhoAtual,custoAtual)
+        
         if caminhoMin < caminhoAtual:
             caminhoAtual = min(caminhoAtual,custoAtual)
             aux = vert
