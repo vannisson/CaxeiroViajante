@@ -34,4 +34,6 @@ def PCVbruteforce(grafo,inicio):
     melhorCaminho.insert(0, inicio)
     melhorCaminho.append(inicio)
 
+    print('Custo mínimo:',caminhoAtual)
+    print('Caminho:', melhorCaminho)
     return [caminhoAtual,melhorCaminho]

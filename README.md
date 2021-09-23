@@ -9,8 +9,10 @@
 ## Hardware sugerido:
 
 * Durante o SH07 e SP11 foi utilizado o Google Collaboratory:
-12gb Ram
-2vCPU @ 2.2GHz
+
+~12.6 GB 
+
+Xeon Processors @2.3Ghz i.e(1 core, 2 threads)
 
 * Durante o UK 12 foi utilizado as seguintes configurações:
 Ryzen 5 3600x 3.7Ghz
