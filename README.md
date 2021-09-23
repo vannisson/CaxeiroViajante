@@ -11,20 +11,14 @@ Av. Manoel Severino Barbosa - Bom Sucesso, Arapiraca - AL, 57309-005
 ## Primeiro ano disponível: 
 2021
 
-## Hardware sugerido:
+## Hardware sugerido para utilizar o Brute Force:
 **Durante o SH07 e SP11 foi utilizado o Google Collaboratory:**
 
-<<<<<<< HEAD
 * Durante o SH07 e SP11 foi utilizado o Google Collaboratory:
 
 ~12.6 GB 
 
 Xeon Processors @2.3Ghz i.e(1 core, 2 threads)
-=======
--Ram: 12.6 GB 
->>>>>>> 1cb59f802927302951a41e792540c3c02ca2fb83
-
--CPU: Xeon Processors @2.3Ghz i.e(1 core, 2 threads)
 
  **Durante o UK 12 foi utilizado as seguintes configurações:**
 
@@ -41,6 +35,13 @@ Xeon Processors @2.3Ghz i.e(1 core, 2 threads)
 -CPU: Intel (R) Xeon (R) CPU E5-2660 v4 com 56 núcleos em 2 soquetes de 2,00 GHz 
 
 -OS: Sistema Operacional Linux.
+
+## Hardware sugerido para utilizar o Eficiente ( Vizinho mais Próximo ):
+
+**Para todas as cidades foi utilizado o Google Collaboratory**
+~12.6 GB 
+Xeon Processors @2.3Ghz i.e(1 core, 2 threads)
+
 
 ## Software necessário:
 O projeto está rodando em Windows 10.
