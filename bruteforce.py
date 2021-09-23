@@ -15,13 +15,21 @@ def PCVbruteforce(grafo,inicio):
     for vert in prox:
         custoAtual = 0
         x = inicio
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1cb59f802927302951a41e792540c3c02ca2fb83
         for aresta in vert:
             custoAtual+=float(grafo[x][aresta])
             x = aresta
         custoAtual += float(grafo[x][inicio])
+<<<<<<< HEAD
 
         caminhoMin = min(caminhoAtual,custoAtual)
+=======
+        caminhoMin = min(caminhoAtual,custoAtual)
+        
+>>>>>>> 1cb59f802927302951a41e792540c3c02ca2fb83
         if caminhoMin < caminhoAtual:
             caminhoAtual = min(caminhoAtual,custoAtual)
             aux = vert
@@ -34,6 +42,10 @@ def PCVbruteforce(grafo,inicio):
     melhorCaminho.insert(0, inicio)
     melhorCaminho.append(inicio)
 
+<<<<<<< HEAD
     print('Custo mínimo:',caminhoAtual)
     print('Caminho:', melhorCaminho)
     return [caminhoAtual,melhorCaminho]
+=======
+    return [caminhoAtual,melhorCaminho]
+>>>>>>> 1cb59f802927302951a41e792540c3c02ca2fb83
